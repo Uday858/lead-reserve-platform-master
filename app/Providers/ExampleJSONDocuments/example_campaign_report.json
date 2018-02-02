@@ -1,0 +1,29 @@
+{
+  "timestamp": "2017-11-17T03:05:39.998Z",
+  "campaign_data": {
+    "campaign": {
+      "id": 1,
+      "name": "Dry Skin",
+      "advertiser": {
+        "id": 1,
+        "name": "EngageIQ"
+      }
+    }
+  },
+  "finance_data": {
+    "revenue": 1002.19,
+    "payout": 603.12,
+    "margin": 119.19,
+    "campaign_payout": 0.5
+  },
+  "leadgen_data": {
+    "data": {
+      "generated": 19230,
+      "accepted": 2004,
+      "rejected": 17226
+    },
+    "metrics": {
+      "accept_percentage": 10.14
+    }
+  }
+}

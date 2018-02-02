@@ -1,0 +1,12 @@
+div.LeadStatusCard {
+	display:inline-block;
+	div.Status__Icon {
+		display: table-cell;
+	}
+	div.Status__Text {
+	    display: table-cell;
+	    padding: 5px;
+	    font-weight: 900;
+	    color: #333333;
+	}
+}

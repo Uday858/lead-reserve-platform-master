@@ -1,0 +1,121 @@
+/*
+  Variables and Functions.
+*/
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+@mixin offerFontFamily()
+{
+  font-family:"Open Sans",sans-serif;
+}
+body.framed-offer-path {
+  // Get publishers to send us a new background color.
+  background-color:#ffffff;
+  overflow: hidden !important;
+}
+
+/*
+  Bottom path text.
+*/
+div.bottom-path-text {
+  padding:10px;
+  bottom:0;
+  width:100%;
+  background-color: #efefef;
+  color: #848484;
+}
+
+div.offer-path-loading-panel {
+  padding:60px;
+  text-align:center;
+}
+div.offer-path-completion-panel {
+  padding:60px;
+  display:none;
+  &.show {
+    display:block;
+  }
+  text-align:center;
+  h5 {
+    font-size: 26px;
+    color: #333;
+    font-weight: 800;
+  }
+  p {
+    font-size:20px;
+    color: #333;
+    font-weight: 300;
+  }
+}
+
+/*
+  Customizing the offer object.
+*/
+div.offer {
+
+  display:none;
+  &.show {
+    display: block;
+  }
+
+  @media(min-width:0px){
+    padding:15px 25px;
+  }
+  @media(min-width:768px){
+    padding:15px;
+  }
+
+  img {
+    width:250px;
+    height:150px;
+    object-fit:contain;
+    object-position:center;
+  }
+
+  div.offer-data {
+    h2 {
+      @media(min-width:0px) {
+        margin-top:15px;
+      }
+      @media(min-width:768px) {
+        margin-top:0px;
+      }
+      margin-bottom:10px;
+      font-weight:900;
+      font-size:20px;
+      color:#333333;
+    }
+    p {
+      margin-bottom:10px;
+      color:#333333;
+      &.tcpa {
+        font-size: 12px;
+        margin-top: 10px;
+        color: #8a8a8a;
+      }
+    }
+  }
+  div.offer-action-row {
+    display:table;
+    width:50%;
+    div.offer-action {
+      width:50%;
+      display:table-cell;
+      padding:5px;
+      &.second {
+        padding-left:5px;
+      }
+      button,a {
+        font-size:16px;
+        color:#ffffff;
+      }
+      button.btn-success,a.btn-success {
+        background-color:#40a1f7;
+      }
+      button.btn-danger,a.btn-danger {
+        background-color:#a5a5a5;
+      }
+    }
+  }
+}

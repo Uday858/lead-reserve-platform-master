@@ -1,0 +1,38 @@
+div.NavigationBox {
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  width: 85.40vw;
+  left: 14.6vw;
+  top: 0;
+  padding:15px;
+  display:table;
+  box-shadow: 5px 3px 15px #e2e2e2;
+  div.NavigationBox__Meta {
+    display:table-cell;
+    width:50%;
+    color:#333333;
+    div.Meta__Title {
+      font-weight:700;
+      font-size:20px;
+    }
+    div.Meta__Caption {
+      text-transform:uppercase;
+    }
+  }
+  div.NavigationBox__Actions {
+    display:table-cell;
+    vertical-align:middle;
+    a.NavigationBox__Action {
+      margin:0px 10px;
+      opacity:0.60;
+      color:#333333;
+      font-weight:500;
+      transition:opacity 0.06s ease-in-out;
+      &:hover {
+        opacity:1;
+        text-decoration:none;
+      }
+    }
+  }
+}

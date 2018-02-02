@@ -1,0 +1,79 @@
+div.InfoBlock {
+
+  &.dark {
+    div.InfoBlock__Heading {
+      background-color:#2b2b2b;
+      div.InfoBlock__Heading__Name {
+        color:#ffffff;
+      }
+    }
+    div.InfoBlock__Content {
+      background-color:#333333;
+      div.Content__Title {
+        color:#ffffff;
+      }
+      div.Content__Attribute {
+        a {
+          color:#ffffff;
+          font-weight:500;
+        }
+      }
+    }
+  }
+
+
+  // Padding for block sections.
+  div.InfoBlock__Heading, div.InfoBlock__Content {
+    padding:15px 30px;
+  }
+
+  // For smaller block sections.
+  &.condensed {
+    div.InfoBlock__Heading, div.InfoBlock__Content {
+      padding:10px 30px;
+    }
+  }
+
+  // The info block heading.
+  div.InfoBlock__Heading {
+    background-color:#F9F9F9;
+    div.InfoBlock__Heading__Name {
+      font-size:14px;
+      font-weight:700;
+      color:#333333;
+    }
+  }
+  div.InfoBlock__Content {
+    background-color:#ffffff;
+
+    &.active {
+      background-color: #f5f8fa;
+      div.Content__Title {
+        font-weight:500;
+      }
+      div.Content__Attribute {
+        a {
+          color:#333333;
+          font-weight:700;
+        }
+      }
+    }
+
+    div.Content__Title {
+      font-size:12px;
+      color:#898989;
+    }
+    div.Content__Attribute {
+      font-size:14px;
+      a {
+        color:#333333;
+        font-weight:500;
+        transition:opacity 0.13s ease-in-out;
+        &:hover {
+          text-decoration: none;
+          opacity:0.5;
+        }
+      }
+    }
+  }
+}

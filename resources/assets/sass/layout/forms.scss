@@ -1,0 +1,32 @@
+* {
+  &.form-group {
+    &.full-width {
+      width:100%;
+      input,textarea,select {
+        width:100% !important;
+      }
+    }
+  }
+  &.form-control {
+    box-shadow: unset;
+    border-radius: 0;
+    border-style: dashed;
+    &.focus,&.hover {
+      outline: 0 !important;
+    }
+  }
+}
+
+pre {
+  &.custom-format {
+    font-size: 10px;
+    border: unset;
+    border-radius: 0px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    color: #313131;
+    max-width: 300px;
+    max-height: 150px;
+    overflow: scroll;
+  }
+}

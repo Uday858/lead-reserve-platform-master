@@ -1,0 +1,15 @@
+span.status-circle {
+  width:8px;
+  height:8px;
+  border-radius:15px;
+  display:block;
+  &.accepted {
+    background-color:#00e800;
+  }
+  &.rejected {
+    background-color:#de5f5f;
+  }
+  &.not-sent {
+    background-color:#e8c064;
+  }
+}

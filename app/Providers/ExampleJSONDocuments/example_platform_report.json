@@ -1,0 +1,151 @@
+{
+  "timestamp": "2017-11-17T03:17:46.752Z",
+  "leads": {
+    "data": {
+      "generated": 12922,
+      "accepted": 4023,
+      "rejected": 8899
+    },
+    "metrics": {
+      "accept_percentage": 31.13,
+      "average_split_percentage": 27.5
+    }
+  },
+  "finance_data": {
+    "revenue": 1261.1,
+    "payout": 785.13,
+    "margin": 475.97
+  },
+  "campaign_data": {
+    "campaign": [
+      {
+        "campaign_data": {
+          "campaign": {
+            "id": 2,
+            "name": "Do you smoke?",
+            "advertiser": {
+              "id": 3,
+              "name": "Phillip Morris"
+            }
+          }
+        },
+        "finance_data": {
+          "revenue": 333.23,
+          "payout": 213.12,
+          "margin": 120.11
+        },
+        "leadgen_data": {
+          "data": {
+            "generated": 100,
+            "accepted": 50,
+            "rejected": 50
+          }
+        },
+        "publishers": [
+          {
+            "publisher_data": {
+              "id": 2,
+              "name": "Ifficient"
+            },
+            "finance_data": {
+              "revenue": 120.12,
+              "payout": 213.12,
+              "margin": 120.11
+            },
+            "leadgen_data": {
+              "data": {
+                "generated": 50,
+                "accepted": 25,
+                "rejected": 25,
+                "daily_cap": 200
+              }
+            }
+          },
+          {
+            "publisher_data": {
+              "id": 2,
+              "name": "Ifficient"
+            },
+            "finance_data": {
+              "revenue": 120.12,
+              "payout": 213.12,
+              "margin": 120.11
+            },
+            "leadgen_data": {
+              "data": {
+                "generated": 50,
+                "accepted": 25,
+                "rejected": 25,
+                "daily_cap": 200
+              }
+            }
+          },
+          {
+            "publisher_data": {
+              "id": 2,
+              "name": "Ifficient"
+            },
+            "finance_data": {
+              "revenue": 120.12,
+              "payout": 213.12,
+              "margin": 120.11
+            },
+            "leadgen_data": {
+              "data": {
+                "generated": 50,
+                "accepted": 25,
+                "rejected": 25,
+                "daily_cap": 200
+              }
+            }
+          }
+        ]
+      },
+      {
+        "campaign_data": {
+          "campaign": {
+            "id": 2,
+            "name": "Do you smoke?",
+            "advertiser": {
+              "id": 3,
+              "name": "Phillip Morris"
+            }
+          }
+        },
+        "finance_data": {
+          "revenue": 333.23,
+          "payout": 213.12,
+          "margin": 120.11
+        },
+        "leadgen_data": {
+          "data": {
+            "generated": 100,
+            "accepted": 50,
+            "rejected": 50
+          }
+        },
+        "publishers": [
+          {
+            "publisher_data": {
+              "id": 2,
+              "name": "Ifficient"
+            },
+            "finance_data": {
+              "revenue": 120.12,
+              "payout": 213.12,
+              "margin": 120.11
+            },
+            "leadgen_data": {
+              "data": {
+                "generated": 50,
+                "accepted": 25,
+                "rejected": 25,
+                "daily_cap": 200
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+div.InfoPanel {
+  // Background color default.
+  background-color: #333333;
+  &.info {
+    background-color: $dash-info;
+  }
+  &.success {
+    background-color: $dash-success;
+  }
+  &.danger {
+    background-color: $dash-danger;
+  }
+
+  padding: 20px;
+  &.small {
+    padding:10px;
+  }
+  &.clean {
+    background-color: #ffffff;
+    padding:10px 25px;
+    div.InfoPanel__Value {
+      text-align: left;
+      color: #494949;
+      font-size: 20px;
+      font-weight: 800;
+    }
+    div.InfoPanel__Caption {
+      font-weight: 500;
+      text-align: left;
+      color: #9F9F9F;
+      font-size: 14px;
+    }
+  }
+
+  div.InfoPanel__Value {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+  }
+  div.InfoPanel__Caption {
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+  }
+}
+div.InfoPanelHorizontalContainer {
+  display:block;
+  div.InfoPanel {
+    display:inline-block !important;
+  }
+}

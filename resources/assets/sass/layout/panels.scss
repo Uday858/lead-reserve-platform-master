@@ -1,0 +1,128 @@
+div.panel {
+  box-shadow:0px 0px 15px #dcdcdc;
+  &.no-box-shadow {
+    box-shadow:none;
+  }
+}
+
+div.panel-default {
+  border:none;
+
+  &.transparent {
+    background:transparent;
+    box-shadow:unset;
+  }
+
+  div.panel-heading {
+    border: none;
+    background-color: #333333;
+    font-size:16px;
+    font-weight:700;
+    padding:20px 15px;
+    color:#ffffff;
+    &.clean {
+      background-color: #ffffff !important;
+      color:#333333 !important;
+    }
+    &.green {
+      background-color:#2ab27b;
+      color:#ffffff;
+    }
+    &.blue {
+      background-color:#3097d1;
+      color:#ffffff;
+    }
+    h5 {
+      font-size: 12px;
+      font-weight: 600;
+      margin: 5px 0px 0px;
+      color: #8c8c8c;
+    }
+    h2 {
+      margin: 5px 0px;
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 5px 0px;
+    }
+    h5 {
+
+    }
+  }
+  div.panel-body {
+    h1,h2,h3,h4,h5,h6 {
+      color:#000000;
+      font-weight:700;
+    }
+  }
+}
+
+div.panel-primary {
+  border: none;
+  div.panel-heading {
+    border: none;
+    background-color: #4A90E2;
+    h5 {
+      font-size: 12px;
+      margin: 15px 0px 0px;
+    }
+    h2 {
+      margin: 5px 0px;
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 14px;
+      margin: 5px 0px;
+    }
+  }
+  &>div.panel-body {
+    padding: 0 !important;
+  }
+
+  // Specialization classes.
+  &.panel-header-left-navigation {
+    height:100vh;
+    background-color:#2b2b2b;
+    div.panel-heading {
+      background-color:#2b2b2b;
+      padding:20px;
+      h2 {
+        font-weight:700;
+        font-size:14px;
+        letter-spacing:5px;
+      }
+    }
+  }
+  &.panel-header-resources {
+    background-color:#2b2b2b;
+    border-radius:0px;
+    padding:30px 60px;
+    div.panel-heading {
+      background-color:#2b2b2b;
+      padding:20px;
+      h2 {
+        font-weight:700;
+        font-size:14px;
+        letter-spacing:5px;
+      }
+    }
+  }
+}
+div.panel {
+  div.links {
+    a {
+      display:inline-block;
+      transition:opacity 0.05s ease-in-out;
+      &:hover {
+        opacity:0.8;
+      }
+      &.selected {
+        font-weight:800;
+        color: #024173;
+        font-size: 18px;;
+      }
+    }
+  }
+}

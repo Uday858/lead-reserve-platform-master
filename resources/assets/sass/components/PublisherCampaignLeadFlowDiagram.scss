@@ -1,0 +1,17 @@
+div.PublisherCampaignLeadFlowDiagram {
+  div.Diagram__Publisher,div.Diagram__Action,div.Diagram__Campaign {
+    display:inline-block;
+    padding:15px;
+    color: white;
+    font-weight: 900;
+  }
+  div.Diagram__Publisher {
+    background-color:#1597ff;
+  }
+  div.Diagram__Action {
+    background-color:transparent;
+  }
+  div.Diagram__Campaign {
+    background-color: #fbbc00;
+  }
+}

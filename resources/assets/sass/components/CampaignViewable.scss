@@ -1,0 +1,31 @@
+div.CampaignViewable {
+  div.CampaignViewable__Information {
+    background-color: $dash-info;
+    padding: 15px;
+    div.Information__Title {
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: 700;
+      a {
+        color:#ffffff;
+        &:hover {
+          opacity:0.6;
+          text-decoration: none;
+        }
+      }
+    }
+    div.Information__Caption {
+      color: #ffffff;
+      p {
+        margin:0;
+        a {
+          color:#ffffff;
+          font-weight:700;
+        }
+      }
+    }
+  }
+  div.CampaignViewable__Attributes {
+    padding:15px;
+  }
+}

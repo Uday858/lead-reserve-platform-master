@@ -1,0 +1,11 @@
+div.InfoKeyValueBlock {
+	padding:5px;
+	div.Key {
+		display:table-cell;
+		font-weight:900;
+		width:200px;
+	}
+	div.Value {
+		display:table-cell;
+	}
+}

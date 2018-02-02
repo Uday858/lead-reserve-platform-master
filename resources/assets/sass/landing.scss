@@ -1,0 +1,71 @@
+@import "landing-fonts";
+.btn.btn-blue {
+  &.btn-bordered {
+    background-color: transparent;
+    color: $landing-primary;
+    border:0.01rem solid $landing-primary;
+    &:hover {
+      background-color: $landing-primary;
+      color: #ffffff;
+    }
+  }
+  &.btn-full {
+    background-color: $landing-primary;
+    color: #ffffff;
+    border:unset;
+    &:hover {
+      background-color: $landing-primary;
+      color: #333333;
+    }
+  }
+}
+
+body.landing {
+  // Everything within the landing page. (Stays isolated and does not touch the application.)
+  img.top-blue-triangle,img.bottom-blue-triangle {
+    opacity:0.10;
+    position:absolute;
+    z-index:-1;
+  }
+  img.top-blue-triangle {
+    top:0;
+    left:0;
+  }
+  img.bottom-blue-triangle {
+    bottom:0;
+    right:0;
+    transform:rotate(180deg);
+  }
+  div.jumbotron {
+    margin-bottom:0px;
+    text-align: center;
+    background:transparent;
+    img {
+      @media(min-width:0px) {
+        width:100%;
+      }
+      @media(min-width:768px) {
+        width:56.25rem;
+      }
+    }
+    h2 {
+      font-family:"AvenirNextBold",sans-serif;
+      font-size:2.25rem;
+      font-weight:700;
+      color:#333333;
+    }
+    h5 {
+      font-family:"AvenirNextRegular",sans-serif;
+      font-size:1.5rem;
+      color:#333333;
+      font-weight:400;
+      margin:0 auto;
+      max-width:50rem;
+      &.price-point {
+        margin-top:2.5rem;
+        margin-bottom:5.0rem;
+        color:$landing-primary;
+      }
+    }
+  }
+}

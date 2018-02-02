@@ -1,0 +1,52 @@
+{
+  "timestamp": "2017-11-17T02:25:12.902Z",
+  "campaign_data": {
+    "campaign": {
+      "id": 1,
+      "name": "Dry Skin",
+      "advertiser": {
+        "id": 1,
+        "name": "EngageIQ"
+      }
+    },
+    "publisher": {
+      "id": 1,
+      "name": "Ifficient"
+    }
+  },
+  "finance_data": {
+    "revenue": 0,
+    "payout": 0,
+    "margin": 0,
+    "campaign_payout": 1,
+    "publisher_payout": 0.25
+  },
+  "leadgen": {
+    "data": {
+      "generated": 200,
+      "accepted": 172,
+      "rejected": 21,
+      "failsend": 7
+    },
+    "metrics": {
+      "accept_percentage": 12.75,
+      "split_percentage": 30
+    }
+  },
+  "linkout": {
+    "data": {
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0
+    },
+    "metrics": {
+      "clickthrough_rate": 10.022,
+      "conversion_rate": 7.34
+    }
+  },
+  "details": {
+    "campaign_daily_cap": 250,
+    "publisher_daily_cap": 100,
+    "publisher_daily_cap_utilization": 0.5
+  }
+}
